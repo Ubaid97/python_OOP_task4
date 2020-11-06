@@ -28,3 +28,6 @@ class Calculator:
     def area_of_triangle(self, height, base):
         return (height * base) / 2
 
+    # takes a measurement in inches and converts it to centimetres
+    def inch_to_cm_converter(self, inches):
+        return inches * 2.54
